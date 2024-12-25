@@ -1,0 +1,7 @@
+include ':pro-base'
+include ':pro-user-api'
+include ':pro-user'
+include ':pro-article-api'
+include ':pro-article'
+
+rootProject.name = 'spring-dubbo-starter'

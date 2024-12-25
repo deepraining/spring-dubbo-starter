@@ -1,0 +1,14 @@
+group = 'dr.sds'
+// version should not have '-'
+version = new Date().format("yyyy.MMdd.HHmm", TimeZone.getTimeZone("GMT+08:00"))
+archivesBaseName = 'user-main'
+sourceCompatibility = 1.8
+description = 'Spring Dubbo Starter User Main'
+
+mainClassName = 'dr.sds.user.main.App'
+
+dependencies {
+  implementation project(':pro-base')
+  implementation project(':pro-user-api')
+  implementation project(':pro-article-api')
+}

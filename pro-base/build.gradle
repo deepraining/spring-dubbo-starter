@@ -1,0 +1,10 @@
+group = 'dr.sds'
+// version should not have '-'
+version = new Date().format("yyyy.MMdd.HHmm", TimeZone.getTimeZone("GMT+08:00"))
+archivesBaseName = 'base'
+sourceCompatibility = 1.8
+description = 'Spring Dubbo Starter Base'
+
+mainClassName = 'dr.sds.base.App'
+
+dependencies {}
